@@ -1,0 +1,85 @@
+.plans {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+  }
+  
+  .plan {
+    background-color: #219ecf;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 250px;
+  }
+  
+  .plan h2 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .plan .price {
+    font-size: 1.5em;
+    color: #f7fcf9;
+  }
+  
+  .plan button {
+    background-color: #ff5a00;
+    color: rgb(247, 253, 250);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .best-seller {
+    background-color: #dc20e2;
+    border: 2px solid #ff5a00;
+  }
+  /* Estilo general para la sección de planes */
+.plans {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+/* Estilos para cada plan individual */
+.plan {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los planes destacados */
+.best-seller {
+    border: 2px solid #ff9800;
+    background-color: #fff3e0;
+}
+
+/* Estilo para los precios */
+.price {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Botón de acción */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
